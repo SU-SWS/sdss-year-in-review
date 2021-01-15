@@ -1,6 +1,6 @@
 # Asset Proxy for Storyblok CDN
 
-This repo contains redirect rules to mask the asset CDN from storyblock.
+This repo contains redirect rules to mask the asset CDN from storyblok.
 
 To use:
 
