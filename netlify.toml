@@ -17,7 +17,7 @@
     Access-Control-Allow-Origin = "*"
     Content-Security-Policy = "form-action https:; frame-src *.stanford.edu *.storyblok.com"
     X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "origin-when-cross-origin"
+    Referrer-Policy = "strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=2592000"
     Permissions-Policy = "vibrate=(), geolocation=(), midi=(), notifications=(), push=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), speaker=(), vibrate=(), fullscreen=()"
 
