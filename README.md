@@ -1,9 +1,10 @@
 # SDSS Year in Review
+[![Netlify Status](https://api.netlify.com/api/v1/badges/75eea7ad-1b69-4b19-a7a3-4c6c353892b9/deploy-status)](https://app.netlify.com/sites/sdss-year-in-review/deploys)
 
 This repo contains a Netlify-hosted static website for SDSS's Year in Review. You can login to Netlify here: https://app.netlify.com/
 
-- Netlify URL:
-- Live Stanford URL:
+- Netlify URL: https://sdss-year-in-review.netlify.app
+- Live Stanford URL: https://sdss-year-in-review.stanford.edu/
 
 This repo can host all Year in Review websites for each year in separate branches.
 
