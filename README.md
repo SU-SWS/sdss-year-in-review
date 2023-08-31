@@ -16,16 +16,16 @@ This repo can host all Year in Review websites for each year in separate branche
     - The repo root is for Netlify configuration files.
 
 ### Making a new deployment
-1. Fetch the latest code for the currently active year's branch
+1. Fetch the latest code for the current active branch
 1. Create a new branch for your changes
 1. Make changes
     - If supplied with new site files don't copy them over the existing files in the branch -- wipe the `/public` directory and replace with new files.
 1. After making changes, commit them, push up to repo, and create a PR.
-    - Make sure the PR is set to merge into the active year's branch (it should be by default).
+    - Make sure the PR is set to merge into the active branch (it should be by default).
 1. Netlify will run a few tests on the PR and also create a preview URL.
-    - Wait for tests/checks to pass and then inspect/review the preview briefly for basic QA.
-1. Once the code is ready to deploy, squash and merge the PR into the active year's branch.
-    - Whenever the active year's branch code is changed, it triggers a new deployment.
+    - Wait for tests/checks to pass and then inspect/review the preview and verify it looks as intended.
+1. Once the code is ready to deploy, squash and merge the PR into the active branch.
+    - Whenever the active branch code is changed, it triggers a new deployment.
 
 ### Switch to a new site for the year
 1. Create a branch for the year of the site (e.g., `2022-2023`)
