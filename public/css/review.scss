@@ -354,16 +354,17 @@ h2{
             text-align: center;
             margin: 0 auto;
         }
-        h3{
-            color: $seaspray;
-            font-weight: 600;
-            font-size: 30px;
-            margin-bottom: 0;
-        }
+        
         h1{
             color: $newleaf;
             font-weight: 300;
             font-size: calc(30px + 3vw);
+            span.h3{
+              color: $seaspray;
+              font-weight: 600;
+              font-size: 30px;
+              margin-bottom: 0;
+            }
             span.line1,
             span.line2,
             span.line3{
@@ -470,14 +471,17 @@ h2{
   }
   .pdf-link{
     margin-top: 4vw;
-  h4{
-    color: $paloalto;
-    font-size: 26px;
-    font-weight: 600;
+  p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight:600;
     a{
       text-decoration: underline;
       font-weight: inherit;
-      color: inherit;
+      color: $paloalto;
+      &:hover{
+        text-decoration:none;
+      }
     }
   }
 }
@@ -1110,6 +1114,12 @@ h2{
         font-style: normal;
         font-weight: 600;
         line-height: 1.15em;
+        a{
+          font-weight: inherit;
+          &:hover{
+            color: $paloalto;
+          }
+        }
         }
         p{
           color: $pebble-dk;
